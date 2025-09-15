@@ -13,15 +13,15 @@ Hazard Detection Unit: Resolves control hazards and stalls when necessary
 Executes instructions with and without hazards
 
 # Architecture
-Instruction Fetch (IF): Fetches instructions from memory
-Instruction Decode (ID): Decodes instructions, reads registers
-Execute (EX): Performs ALU operations and address calculations
-Memory (MEM): Handles load/store instructions
-Write Back (WB): Writes results back to registers
+Instruction Fetch (IF): Fetches instructions from memory.
+Instruction Decode (ID): Decodes instructions, reads registers.
+Execute (EX): Performs ALU operations and address calculations.
+Memory (MEM): Handles load/store instructions.
+Write Back (WB): Writes results back to registers.
 
 # Requirements
-Verilog HDL
-Simulation/FPGA Tools: Xilinx ISE Design suite
+Verilog HDL,
+Simulation/FPGA Tools: Xilinx ISE Design suite,
 Testbench for instruction execution and hazard testing
 
 # Usage
